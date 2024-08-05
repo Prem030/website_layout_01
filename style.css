@@ -1,0 +1,635 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Lato", sans-serif;
+}
+.middle-container{
+    margin: auto;
+}
+
+.texting{
+    border: 2px solid black;
+}
+
+
+/* <================== This is navbar section ================================> */
+
+.landing-page{
+    width: 100%;
+}
+
+
+img{
+    width: 100%;
+    position: relative;
+    top:39px;
+   
+}
+
+#navbar{
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    z-index: 3;
+}
+
+.links{
+    margin-left: 1rem;
+}
+
+.links li{
+    list-style: none;
+    display: inline;
+    
+}
+
+
+.links li a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: .9rem 1.9rem .8rem .9rem;
+    font-size: .9rem;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.links li a:hover{
+    color: black;
+    background-color: #CCCCCC;
+}
+
+.landing-page i:hover{
+    background-color: #ccc;
+    color: black;
+}
+
+.landing-page i{
+    color: white;
+    padding: 1rem;
+}
+
+
+.text{
+    box-sizing: border-box;
+    
+    position: relative;
+    z-index: 3;   
+    width: 335px;
+    bottom: 116px;
+    height: 150px;
+    color: white;
+    text-align: center;
+    padding: 2.3rem 1rem 1rem 1rem;
+}
+
+.text > h3{
+    font-weight: 400;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    padding: .2rem;
+}
+
+.fa-bars{
+    display: none;
+}
+
+
+
+
+
+
+/* <===================================== BAND SECTION ==============================================> */
+
+.BAND{
+    width: 800px;
+    text-align: center;
+    box-sizing: border-box;
+    transform: translateY(-113px);
+    padding: 5rem 1rem 0rem 1rem;
+    
+}
+
+.BAND h2{
+    font-weight:300;
+    box-sizing: border-box;
+    
+    padding: .4rem .8rem .6rem .8rem;
+    letter-spacing: .2rem;
+    font-size: 1.8rem;
+    margin-bottom: .5rem;
+
+}
+
+.sub-heading{
+    color: #AAAAAA;
+    margin-bottom: 1rem;
+    font-style: italic;
+    font-size: 1rem;
+    
+}
+
+.BAND .decs{
+    text-align: start;
+    font-size: 15px;
+    line-height: 1.5rem;
+    margin-bottom: 1rem;
+    word-break:break-all;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+   
+    padding: 2rem 0rem 5rem 0rem;
+}
+
+.container .band-member{
+    width: 300px;
+    height: 220px;
+    padding: 1rem 0 0 0;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.container .band-member img{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: 0;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.container  .band-member h3{
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+
+/* <========================================== Tour section =============================================> */
+
+
+.tour-dates{
+    background-color: black;
+    transform: translateY(-105px);
+    
+}
+
+.container2{
+    width: 800px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 4.5rem 1rem 0rem 1rem;
+ 
+}
+
+.container2 .tour-heading{
+    
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    font-weight: 400;
+    letter-spacing: .2rem;
+    padding: .5rem 0;
+    margin-bottom: .5rem;
+}
+
+.container2 .tour-sub-heading{
+  
+    text-align: center;
+    font-style: italic;
+    color: #AAAAAA;
+    margin-bottom: 2rem;
+}
+
+.container2 .tour-months{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.container2 .tour-months p{
+    border:1px solid #AAAAAA;
+    padding: .6rem;
+    font-size: 1rem;
+    color: #AAAAAA;
+}
+
+.container2 .tour-months .September::after , 
+.container2 .tour-months .October::after{
+    content: "Sold Out";
+    background-color: red;
+    color: white;
+    margin-left: 1rem;
+    padding: .1rem;
+}
+
+
+
+.tour-dates .tour-places{
+    
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    margin:auto;
+    padding: 2rem .5rem 0rem .5rem;
+
+
+}
+
+.tour-dates .tour-places  .places-card{
+    padding: 0 .4rem;
+    margin-bottom: 6rem;
+
+}
+
+.tour-dates .tour-places .places-card .image img{
+    transform: translateY(-38px);
+}
+
+.tour-dates .tour-places .places-card .image img:hover{
+    opacity: 0.60;
+}
+
+.tour-dates .card-dis{
+    box-sizing: border-box;
+    background-color: white;
+    padding: .7rem 0rem 0rem 0rem;
+    
+}
+
+
+.tour-places .card-dis h4 ,
+.tour-places .card-dis p{
+    width: 85%;
+    margin: 0 auto;
+}
+
+.tour-places .card-dis p{
+    margin: 1rem auto;
+    
+} 
+
+.coloured-text{
+    color: #AAAAAA;
+}
+
+.places-card button{
+    padding: .5rem 1rem .5rem 1rem;
+    background-color: black;
+    color: white;
+    margin:.5rem 0rem 1.5rem 1rem;
+    box-sizing: border-box;
+    font-size: 1rem;
+    border: none;
+}
+
+.places-card button:hover{
+    background-color: #ccc;
+    color: black;
+}
+
+
+/* <==========================================CONTACT =====================================================> */
+
+.contact .content{
+    width: 800px;
+    margin: auto;
+    
+    transform: translateY(-105px);
+    padding: 5rem 1rem 0rem 1rem;
+}
+
+.contact .content h2{
+    text-align: center;
+    padding: .45rem;
+    font-weight: 400;
+    letter-spacing: .2rem;
+    font-size: 1.7rem;
+    margin-bottom: 1rem;
+}
+
+.content p{
+    text-align: center;
+    color: #AAAAAA;
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+
+.contact .box{
+    display: flex;
+    flex-direction: row;
+    padding-top: 2rem;
+}
+
+.content .box1 i{
+    font-size: 1.2rem;
+}
+
+.content .box1 .fa-map-marker{
+    padding-right: 1.2rem;  
+    
+}
+
+.content .box1 .fa-phone{
+    padding-right: .9rem;  
+    
+}
+
+.content .box1 .fa-envelope{
+    padding-right: .7rem;  
+    
+}
+
+
+
+
+.content .box1{
+    width: 100%;
+
+}
+
+
+
+
+.box2{
+    width: 400px;
+}
+
+.box2 .container3{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+}
+.box2 #Name{
+    font-size: 1rem;
+    padding: .5rem .0rem .5rem .0rem;
+    width: 50%;
+    border-radius: 3px;
+    border: 2px solid #AAAAAA;
+    margin: auto;
+    
+}
+
+.box2 #E-mail{
+    font-size: 1rem;
+    margin-left: .7rem;
+    width: 50%;
+    padding: .5rem 0rem .5rem .0rem;
+    border-radius: 3px;
+    border: 2px solid #AAAAAA;
+    
+}
+
+.box2 #message{
+    width: 100%;
+    padding: .5rem .0rem .5rem .0rem;
+    margin-bottom: 1rem;
+    border-radius: 3px;
+    border: 2px solid #AAAAAA;
+
+}
+
+.box2 button{
+
+    margin-left: 20rem;
+    padding: .5rem 1rem;
+    color: white;
+    background-color: black;
+    border: none;
+}
+
+.box2 button:hover{
+    background-color: #ccc;
+    color: black;
+}
+
+.map img{
+    filter: grayscale(50%);
+}
+
+.social-media{
+padding-top: 13rem;  
+text-align: center;
+}
+
+.social-media i{
+    font-size: 1.5rem;
+    color: black;
+    transform: translateY(-95px);
+    color: #AAAAAA;
+}
+
+.social-media p{
+    width: 99%;
+    margin: auto;
+    
+    text-align: center;
+    transform: translateY(-82px);
+    color: #AAAAAA;
+}
+
+.social-media a{
+    
+    color: #AAAAAA;
+}
+
+.social-media i:hover{
+    color: #ccc;
+}
+
+
+/* <=======================================All media query =============================================> */
+
+@media (max-width:800px){
+    .container{
+        width: 100%;
+    }
+    .BAND{
+        width: 100%;    
+    }
+
+    .sub-heading , .decs , .band-member{
+        width: 100%;
+    }
+    
+    .tour-dates , 
+    .tour-dates .container2 , 
+    .tour-dates .tour-places{
+        width: 100%;
+    }
+
+    .tour-dates .tour-places .places-card{
+        width: 33.333%;
+    }
+
+    .contact{
+        width: 100%;
+    }
+    .contact .content{
+        width: 100%;
+       
+    }
+
+    .contact .content .box1{
+        width: 375px;
+        
+    }
+
+    .contact .content .box1 div{
+        width: 100%;
+    }
+    .box2 #Name{
+        width: 50%;
+        
+    }
+    
+    .box2 #E-mail{
+        width: 50%;
+        
+    }
+    
+    .box2 #message{
+        width: 100%;
+        padding: .5rem .0rem .5rem .0rem;
+        margin-bottom: 1rem;
+        border-radius: 3px;
+        border: 2px solid #AAAAAA;
+    
+    }
+    .box2{
+        width: 50%;
+    }
+    .box2 button{
+        margin: 0;
+    }
+    
+}
+
+@media (max-width:600px){
+
+    .fa-search{
+        display: none;
+
+    }
+    .fa-bars{
+        display: inline-block;
+        color: white;
+        padding:1rem;
+    }
+
+    .links > .disapear{
+        display: none;
+    }
+
+    .text{
+        display: none;
+    }
+
+
+    .BAND{
+        transform: translateY(36px);
+    }
+    .BAND .decs{
+        margin-bottom: 1.2rem;
+    }
+    .container {
+        flex-direction: column;
+    }
+
+    .container .band-member{
+        width: 100%;
+       
+        height: fit-content;
+    }
+
+    .container .band-member h3{
+        margin-bottom: 1rem;
+    }
+
+    .container .band-member img{
+        width: 60%;
+        margin: auto;
+        height:fit-content ;
+        margin-bottom: 2rem;
+    }
+    
+    
+
+    .tour-dates .tour-places{
+        display: block;
+        flex-direction: column;
+        padding-bottom: 5rem;
+          
+    }
+
+    .tour-dates .tour-places .places-card{
+        width: 100%;
+        margin: 1rem 0rem 1rem 0rem;
+    }
+    
+    .contact .content .box{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        
+        
+    }
+    .contact .content .box .box1{
+        margin-bottom: 1rem;
+    }
+    .contact  .icons-contact1 ,
+    .contact  .icons-contact2 ,
+    .contact  .icons-contact3
+     {
+        
+        margin: .5rem 0;
+        
+    }
+
+    .box2{
+        width: 100%;
+    }
+
+    .box2 .container3{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box2  #Name{
+        margin: 0;
+        width: 100%;
+        margin-bottom: .5rem;
+    }
+
+    .box2 #E-mail{
+        width: 100%;
+        margin: 0;
+    }
+
+    .box2 button{
+        margin-left: auto;
+        
+    }
+    
+    .contact .content .box1{
+        width: 100%;
+        
+    }
+    .box1 div{
+        width: 100%;
+    }
+
+}
